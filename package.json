@@ -1,0 +1,24 @@
+{
+  "name": "yt-adskip",
+  "version": "1.0.0",
+  "description": "This gets the timestamps for when an add begins and ends",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaakyire",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.29.0",
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "openai": "^4.67.3",
+    "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^10.5.0"
+  }
+}
